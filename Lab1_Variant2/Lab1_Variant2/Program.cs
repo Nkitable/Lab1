@@ -4,7 +4,6 @@ namespace Lab1_Variant2
 {
     public class Program
     {
-        // Метод для обчислення повних хвилин
         public static int CalculateFullMinutes(int n)
         {
             int m = n / 60;
@@ -13,7 +12,6 @@ namespace Lab1_Variant2
 
         static void Main(string[] args)
         {
-            // Виправлення кодування для коректного відображення українських літер
             Console.OutputEncoding = System.Text.Encoding.UTF8;
 
             Console.WriteLine("Введіть кількість секунд (N), що пройшли з початку доби:");
